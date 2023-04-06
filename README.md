@@ -2,4 +2,4 @@
 BNB gwei checker
 
 
-Bscscan брать тут - https://bscscan.com/myapikey
+Bscscan API брать тут - https://bscscan.com/myapikey
