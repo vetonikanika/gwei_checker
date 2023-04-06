@@ -5,7 +5,7 @@ import time
 import telebot
 
 api_tg = 'tg api'
-api_bscscan = 'api bscscan'
+api_bscscan = 'api bscscan' # Bscscan API брать тут - https://bscscan.com/myapikey
 bot = telebot.TeleBot(api_tg)
 
 w3 = Web3(Web3.HTTPProvider('https://bsc.blockpi.network/v1/rpc/public'))
