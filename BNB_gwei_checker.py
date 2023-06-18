@@ -4,11 +4,11 @@ import requests
 import time
 import telebot
 
-api_tg = 'tg api'
+api_tg = 'api'
 api_bscscan = 'api bscscan' # Bscscan API брать тут - https://bscscan.com/myapikey
 bot = telebot.TeleBot(api_tg)
 
-w3 = Web3(Web3.HTTPProvider('https://bsc.blockpi.network/v1/rpc/public'))
+w3 = Web3(Web3.HTTPProvider('https://bsc.blockpi.network/v1/rpc/public'))#web 3 api
 
 w3.middleware_onion.inject(geth_poa_middleware, layer=0)
 
